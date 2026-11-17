@@ -1,0 +1,11 @@
+VERIFICACIÓN DE REEMPLAZO FRONTEND-MIA
+
+Se reemplazó completamente la carpeta:
+FRONTEND-MIA/
+
+Fuente usada:
+Archivo subido por el usuario en esta conversación: FRONTEND-MIA.zip
+Ruta de trabajo: /mnt/data/FRONTEND-MIA.zip
+
+Se conservó el dashboard, base de datos, sistema de sesiones, notificaciones, versiones y conexión con FRONTEND-DCI/FRONTEND-MIA.
+También se actualizó sistema/originales/FRONTEND-MIA para que la restauración use este nuevo frontend.

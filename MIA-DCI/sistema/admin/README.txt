@@ -1,0 +1,1 @@
+Panel CMS visual. Importa database.sql y entra a /sistema/admin/login.php

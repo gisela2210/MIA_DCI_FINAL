@@ -1,0 +1,16 @@
+SE USARON LOS FRONTEND NUEVOS QUE EL USUARIO SUBIÓ POR SEPARADO:
+
+- FRONTEND-DCI.zip
+- FRONTEND-MIA.zip
+
+Las carpetas anteriores fueron eliminadas y reemplazadas completamente por estas nuevas:
+
+MIA-DCI/FRONTEND-DCI/
+MIA-DCI/FRONTEND-MIA/
+
+Verificación esperada:
+- DCI index.html contiene el texto: "Conviértete en un investigador líder..."
+- MIA index.html contiene el texto: "Domina la Inteligencia Artificial..."
+- Ambas carpetas conservan sus encabezados, menú, assets, CSS y JS originales del ZIP nuevo.
+
+El dashboard queda conectado para editar directamente esos archivos reales.

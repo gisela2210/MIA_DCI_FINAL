@@ -1,0 +1,16 @@
+CORRECCIÓN: SOLO UN ENCABEZADO
+
+Esta versión conserva las páginas FRONTEND-MIA y FRONTEND-DCI sin cambiar su diseño.
+La corrección evita que el encabezado/pie de Gobierno gob.mx se vea duplicado.
+
+Qué se cambió:
+- No se toca el encabezado propio de TecNM de las páginas.
+- No se elimina el encabezado de Gobierno.
+- Se ocultan/eliminan duplicados generados por gobmx.js en la previsualización.
+- Se agregó una regla CSS de seguridad en FRONTEND-DCI/css/styles.css y FRONTEND-MIA/css/styles.css para que solo se vea un encabezado/pie de Gobierno.
+
+Instalación:
+1. Copia la carpeta en C:\xampp\htdocs\MIA-DCI
+2. Importa database.sql si es instalación limpia.
+3. Entra al panel: http://localhost/MIA-DCI/sistema/admin/
+4. Si ya tienes archivos dañados por guardados anteriores, entra como admin a Páginas DCI/MIA y usa Reparar encabezados.

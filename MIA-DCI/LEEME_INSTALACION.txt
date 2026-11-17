@@ -1,0 +1,35 @@
+SISTEMA DCI / MIA - DASHBOARD PROFESIONAL
+
+IMPORTANTE:
+- Las carpetas FRONTEND-DCI y FRONTEND-MIA fueron tomadas del ZIP original que enviaste.
+- El dashboard NO reconstruye las páginas públicas.
+- El dashboard edita directamente los archivos reales dentro de FRONTEND-DCI y FRONTEND-MIA.
+- Los encabezados, menús, footer y scripts institucionales quedan protegidos para evitar duplicados.
+
+INSTALACIÓN EN XAMPP:
+1. Copia la carpeta MIA-DCI dentro de C:\xampp\htdocs\
+2. Entra a phpMyAdmin.
+3. Importa el archivo database.sql.
+4. Abre: http://localhost/MIA-DCI/sistema/admin/
+
+USUARIOS:
+admin / Admin123
+editor_dci / Dci12345#
+editor_mia / Mia12345#
+
+FUNCIONES:
+- Dashboard profesional en tonos TecNM.
+- Vista previa editable sobre las páginas originales.
+- Editar contenido de secciones existentes.
+- Agregar contenido dentro de secciones existentes.
+- Agregar secciones nuevas al menú azul.
+- Editar secciones nuevas.
+- Eliminar secciones nuevas.
+- Agregar tablas, imágenes, títulos, párrafos, listas y botones.
+- Versiones para regresar cambios.
+- Notificaciones internas cuando otro usuario hace cambios.
+- Administración de usuarios solo para administrador.
+- El administrador puede actualizar contraseñas de usuarios.
+- Configuración de fuente global.
+
+Si un cambio no se ve inmediatamente en la página pública, presiona Ctrl + F5.

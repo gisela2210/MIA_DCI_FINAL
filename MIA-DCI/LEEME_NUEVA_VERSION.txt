@@ -1,0 +1,35 @@
+VERSIÓN CORREGIDA
+
+Esta versión usa las carpetas FRONTEND-DCI y FRONTEND-MIA tomadas directamente del ZIP original que se proporcionó en esta conversación.
+
+Objetivo:
+- Mantener el diseño público original intacto.
+- Editar desde el dashboard sin tocar encabezados, menús ni pies de página.
+- Reflejar cambios en las carpetas reales FRONTEND-DCI y FRONTEND-MIA.
+- Permitir agregar, editar y eliminar secciones nuevas del menú azul.
+- Dashboard más profesional por módulos.
+
+Opciones importantes:
+1. Páginas DCI/MIA
+   - Vista previa editable.
+   - Versiones.
+   - Restaurar DCI original.
+   - Restaurar MIA original.
+
+2. Secciones del menú
+   - Crea una nueva opción del menú azul.
+   - Edita secciones creadas desde el panel.
+   - Elimina secciones creadas desde el panel.
+
+3. Conexión Frontend
+   - Revisa si XAMPP puede escribir sobre los archivos reales.
+
+Instalación:
+1. Copiar carpeta MIA-DCI dentro de C:\xampp\htdocs\
+2. Importar database.sql en phpMyAdmin.
+3. Abrir http://localhost/MIA-DCI/sistema/admin/
+
+Usuarios:
+admin / Admin123
+editor_dci / Dci12345#
+editor_mia / Mia12345#

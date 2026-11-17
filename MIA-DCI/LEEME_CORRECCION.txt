@@ -1,0 +1,14 @@
+CORRECCIÓN APLICADA
+
+1. Se restauraron FRONTEND-DCI y FRONTEND-MIA desde el ZIP original para eliminar encabezados duplicados guardados por error.
+2. Se corrigió save_page.php para que NO guarde encabezados/pies inyectados por gobmx.js.
+3. Se agregó en Páginas DCI/MIA el botón "Reparar encabezados" para limpiar instalaciones existentes sin borrar la base de datos.
+4. Cada reparación y cada guardado crea respaldo automático en Versiones.
+5. Al guardar o reparar, se generan notificaciones internas para los demás usuarios. Se ven en la campana y en el menú Notificaciones.
+6. Se conserva un solo database.sql amplio.
+
+INSTALACIÓN RECOMENDADA
+- Descomprime la carpeta en C:\xampp\htdocs\
+- Si quieres conservar la URL anterior, renombra la carpeta a MIA-DCI o mia-dci.
+- Importa database.sql solo si vas a instalar desde cero.
+- Si ya tienes datos, primero respalda tu base. Para arreglar el bug visual, entra como admin y usa: Páginas DCI/MIA > Reparar encabezados.

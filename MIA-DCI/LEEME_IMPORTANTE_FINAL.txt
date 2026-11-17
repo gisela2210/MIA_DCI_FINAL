@@ -1,0 +1,22 @@
+IMPORTANTE - CORRECCIÓN FINAL
+
+Esta versión NO reconstruye ni elimina encabezados de FRONTEND-MIA ni FRONTEND-DCI.
+
+Cómo funciona ahora:
+1. La vista previa carga la página original tal como está.
+2. El encabezado, menú y pie de página se ven, pero quedan protegidos en modo edición.
+3. Al guardar, el sistema ya NO guarda todo el HTML del iframe.
+4. Solo guarda los elementos editados: texto, imagen o tabla seleccionada.
+5. Por eso no se duplican encabezados del Gobierno ni se rompe el diseño.
+6. Los cambios se escriben directamente en los archivos reales dentro de FRONTEND-MIA y FRONTEND-DCI.
+7. Cada cambio genera una versión de respaldo y manda notificación interna a los demás usuarios.
+
+Instalación:
+- Coloca la carpeta en C:\xampp\htdocs\MIA-DCI
+- Importa database.sql en phpMyAdmin.
+- Entra a http://localhost/MIA-DCI/sistema/admin/
+
+Usuarios:
+admin / Admin123
+editor_dci / Dci12345#
+editor_mia / Mia12345#

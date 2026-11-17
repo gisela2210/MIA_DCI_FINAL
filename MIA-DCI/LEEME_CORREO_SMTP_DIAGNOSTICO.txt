@@ -1,0 +1,28 @@
+CORRECCIÓN DE CORREOS SMTP
+===========================
+
+Esta versión mejora la configuración de correo del dashboard.
+
+IMPORTANTE:
+- Los valores como smtp.dominio.com, admin o tu_correo@dominio.com son ejemplos.
+- Para que el correo se envíe, debes usar datos reales de una cuenta de correo.
+- En XAMPP, mail() normalmente no envía correos si no configuraste un servidor SMTP/sendmail.
+- Si estás trabajando localmente, puedes dejar que el sistema genere el enlace de verificación para copiarlo manualmente.
+
+DATOS QUE DEBES PONER EN CONFIGURACIÓN:
+1. Modo de envío: SMTP
+2. Correo remitente: una cuenta real, por ejemplo correo@tudominio.com
+3. Servidor SMTP: el servidor real de tu correo
+4. Puerto: 587 con TLS/STARTTLS o 465 con SSL
+5. Usuario SMTP: normalmente el correo completo
+6. Contraseña SMTP: la contraseña real del correo o contraseña de aplicación si tu proveedor lo pide
+7. Correo de prueba: correo real al que quieres enviar la prueba
+
+NUEVO EN ESTA VERSIÓN:
+- El sistema muestra el error exacto si el correo falla.
+- Se agregó diagnóstico de correo dentro de Configuración.
+- Se valida si el servidor SMTP sigue siendo texto de ejemplo.
+- Se puede borrar la contraseña SMTP guardada.
+- Se corrige el envío SMTP con asunto UTF-8 y STARTTLS.
+
+Si el correo no sale, revisa el mensaje de “Último error” en Configuración.

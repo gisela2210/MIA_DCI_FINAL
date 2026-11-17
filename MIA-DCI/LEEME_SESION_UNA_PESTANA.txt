@@ -1,0 +1,8 @@
+CORRECCIÓN APLICADA
+
+- Se mantienen los FRONTEND-DCI y FRONTEND-MIA nuevos que ya estaban en este paquete.
+- No se reemplazaron por versiones anteriores.
+- Se agregó seguridad para que el mismo usuario no tenga dos pestañas del dashboard abiertas con la misma sesión.
+- Si se abre otra pestaña del panel con el mismo usuario, la segunda pestaña muestra el aviso: El panel ya está abierto.
+- Se conserva la opción Cambiar usuario para entrar con otro usuario sin duplicar la sesión actual.
+- Las imágenes nuevas del frontend se conservan dentro de FRONTEND-DCI y FRONTEND-MIA.

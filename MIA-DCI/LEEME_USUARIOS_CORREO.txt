@@ -1,0 +1,29 @@
+CAMBIOS DE ESTA VERSIÓN
+
+1. Usuarios
+- El administrador puede crear usuarios.
+- El administrador puede editar usuarios existentes: nombre, usuario, correo, rol, programa, estado activo y verificación de correo.
+- El administrador puede eliminar usuarios.
+- No se permite eliminar al mismo usuario con el que está iniciada la sesión.
+- No se permite eliminar al último administrador activo.
+- El administrador puede cambiar la contraseña de cualquier usuario.
+
+2. Verificación de correo
+- El administrador puede reenviar/generar enlace de verificación.
+- El administrador puede marcar un correo como verificado.
+- El administrador puede marcar un correo como pendiente.
+- Si XAMPP no tiene configurado el envío de correo, el sistema muestra el enlace para copiarlo manualmente.
+
+3. Seguridad de contraseñas
+- Al crear usuario y al cambiar contraseña aparece un medidor: débil, media o fuerte.
+- La contraseña sigue validando: mínimo 8 caracteres, mayúscula, minúscula, número y símbolo.
+
+4. Configuración de correo
+- En Configuración se agregó un apartado para correo.
+- Se puede usar PHP mail() o SMTP.
+- Se puede guardar servidor SMTP, puerto, seguridad, usuario y contraseña.
+- Se puede enviar un correo de prueba.
+
+5. Dashboard y frontend
+- Se conservan FRONTEND-DCI y FRONTEND-MIA.
+- Se conserva la conexión del dashboard con las carpetas reales del frontend.

@@ -1,0 +1,11 @@
+CORRECCIÓN DE SESIÓN SEGURA
+
+Esta versión mantiene la seguridad para que un mismo usuario no tenga sesiones duplicadas.
+
+Ahora también permite cambiar de usuario desde el mismo navegador:
+
+1. En el panel, entra a "Cambiar usuario".
+2. El sistema cierra la sesión local actual.
+3. Regresa al login para iniciar con otro usuario distinto.
+
+Si entras directo a login.php con una sesión abierta, aparecerá un aviso con el botón "Cambiar de usuario".

@@ -1,0 +1,20 @@
+CORRECCIÓN DE SECCIONES DEL MENÚ AZUL
+
+Esta versión corrige el error:
+SQLSTATE[42S22]: Unknown column 'contenido_html' in 'field list'
+
+Cambios:
+- Se corrigió la base de datos para incluir contenido_html en secciones_pagina.
+- Se agregó compatibilidad automática si usas una base anterior.
+- Las secciones nuevas ahora aparecen en la lista del dashboard.
+- Las secciones nuevas se pueden editar y eliminar.
+- Si antes se creó una sección pero no apareció en la lista, el sistema la sincroniza automáticamente leyendo FRONTEND-DCI/pages y FRONTEND-MIA/pages.
+- Ya no deben aparecer saltos literales tipo \n en las páginas nuevas.
+- Se mantiene la edición sobre FRONTEND-DCI y FRONTEND-MIA.
+
+Instalación recomendada:
+1. Descomprime esta carpeta como C:\xampp\htdocs\MIA-DCI
+2. Importa database.sql en phpMyAdmin.
+3. Entra a http://localhost/MIA-DCI/sistema/admin/
+
+Si ya tienes una base anterior y no quieres borrarla, entra primero al módulo Secciones del menú: el sistema intentará agregar las columnas faltantes automáticamente.
